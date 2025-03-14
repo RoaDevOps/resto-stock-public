@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Restaurante</title>
+    <title>Sashimis & Mariscos - El Burro II</title>
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
+
     <header>
         <nav>
-            <img src="static/img/img3.png" alt="Logo" class="logo">
+            <img src="static/img/img3.png" alt="Logo del Restaurante" class="logo">
             <ul class="menu">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="menu.html">Menú</a></li>
@@ -19,17 +20,38 @@
         </nav>
     </header>
 
+    <!-- Hero con imagen principal -->
     <section class="hero">
-        <h1> Bienvenido / Welcome </h1>
-        <p>¡Sashimis y Mariscos!</p>
-        <a href="menu.html" class="boton">Ver Menú</a>
+        <div class="hero-content">
+            <h1>Bienvenido a Sashimis & Mariscos</h1>
+            <p>Los mejores sabores del mar, frescura y calidad.</p>
+            <a href="menu.html" class="boton">Ver Menú</a>
+        </div>
     </section>
 
+    <!-- Carrusel de imágenes -->
+    <section class="carrusel">
+        <div class="carrusel-container">
+            <img src="static/img/imagen1.jpg" class="carrusel-img" alt="Plato de mariscos">
+            <img src="static/img/imagen2.jpg" class="carrusel-img" alt="Sashimi fresco">
+            <img src="static/img/imagen3.jpg" class="carrusel-img" alt="Ceviche de camarón">
+        </div>
+    </section>
+
+    <!-- Sección de Pedidos a Domicilio -->
+    <section class="pedidos">
+        <h2>📞 Pedidos a Domicilio</h2>
+        <p>¡Haz tu pedido y recíbelo en minutos!</p>
+        <p class="telefono">📲 <strong>+52 555 123 4567</strong></p>
+        <a href="tel:+525551234567" class="boton-pedido">¡Llamar Ahora!</a>
+    </section>
+
+    <!-- Menú destacado -->
     <section class="menu-destacado">
         <h2>Lo Más Pedido</h2>
         <div class="productos">
             <div class="producto">
-                <img src="static/img/hamburguesa.png" alt="Hamburguesa">
+                <img src="static/img/hamburguesa.png" alt="Hamburguesa Especial">
                 <h3>Hamburguesa Especial</h3>
             </div>
             <div class="producto">
@@ -39,10 +61,12 @@
         </div>
     </section>
 
+    <!-- Pie de página -->
     <footer>
-        <p>&copy; 2025 el burrototototot Todos los derechos reservados.</p>
+        <p>&copy; 2025 Sashimis & Mariscos - El Burro II. Todos los derechos reservados.</p>
     </footer>
 
+    <!-- Archivo de scripts -->
     <script src="static/js/scripts.js"></script>
 </body>
 </html>
